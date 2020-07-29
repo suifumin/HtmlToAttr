@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HtmlToAttr"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "将html标签转换成富文本."
   spec.swift_versions             = "4.0"
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
 		将html转换成富文本的一个方法kit，缩短效率
                    DESC
 
-  spec.homepage     = "https://github.com/suifumin/HToAtt.git"
+  spec.homepage     = "https://github.com/suifumin/HtmlToAttr.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -55,7 +55,7 @@ Pod::Spec.new do |spec|
 
   spec.author             = { "suifumin" => "sfmzqbx@sina.com" }
    #Or just: spec.author    = "suifumin"
-   spec.authors            = { "suifumin" => "sfmzqbx@sina.com" }
+  # spec.authors            = { "suifumin" => "sfmzqbx@sina.com" }
    spec.social_media_url   = "https://github.com/suifumin"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/suifumin/HToAtt.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/suifumin/HtmlToAttr.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "HtmlToAttr/*.{swift}"
+  spec.source_files  = "HtmlToAttr/**/*.{swift}"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
